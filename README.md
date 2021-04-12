@@ -14,4 +14,4 @@
 
 ## Mastering Markdown
 
-[read01.md](https://github.com/R-Alhayek/reading-notes/edit/main/Read01)
+[read01.md](https://r-alhayek.github.io/reading-notes/Read01)
