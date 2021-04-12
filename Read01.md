@@ -13,3 +13,4 @@
 3. Adding **images**
 
     Use ![image](image link) to add a photo to your document.
+    ..
