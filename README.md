@@ -17,3 +17,7 @@
 [Read01.md](https://r-alhayek.github.io/reading-notes/Read01)
 
 .
+[read02.md](read02.md)
+[getstartgit.md](getstartgit.md)
+[gitrepo.md](gitrepo.md)
+[workflow.md](workflow.md)
