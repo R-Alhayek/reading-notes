@@ -17,5 +17,6 @@
 [Read01.md](https://r-alhayek.github.io/reading-notes/Read01)
 
 .
-[read02.md](read02.md)
+[read02.md](https://r-alhayek.github.io/reading-notes/read02)
+
 
