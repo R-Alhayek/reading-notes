@@ -24,4 +24,4 @@ file name  | link
 ------------- | -------------
 Read01 | [Read01.md](https://r-alhayek.github.io/reading-notes/Read01)
 read02 | [read02.md](https://r-alhayek.github.io/reading-notes/read02)
-read 03| [read03.md](https://github.com/R-Alhayek/reading-notes/blob/main/read03.md)
+read 03| [read03.md](https://r-alhayek.github.io/reading-notes/read03)
