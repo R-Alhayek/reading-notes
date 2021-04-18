@@ -15,6 +15,10 @@
 #### Functions let you group a series of statements together to perform a specific task. If different parts of a script repeat the same task, you can reuse the function (rather than repeating the same set of statements). Some Functions need to be provided with information in order to achieve a given task. Pieces of information passed to a function are known as **Parameters**. The response to a written function is known as a **return value**. 
 
 +  Declaring a function:To creat a function, you give it a name then write the statements needed to aceive its task inside the curly braces.
+<<<<<<< HEAD
 + Calling a function: You can excute all of the statements between the function's curly braces with just one line of code. To run the code in the function, You use the function name between parantheses().
   + Sometimes a function needs a specific information to perform its task. In such cases, when you deaclare the function, you give it Parameters. Inside the function, the parameters acts like variables.
 + Getting a single value out of a function: Some functions return information to the function that called them. For example, when they perform a calculation, they return the result.
+=======
++ Calling a function: 
+>>>>>>> ab184b2087cd49edee5d9f603bfafb15f2aeaed5
