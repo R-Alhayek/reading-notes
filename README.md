@@ -28,5 +28,6 @@ read 03| [read03.md](https://r-alhayek.github.io/reading-notes/read03)
 read 04a| [read04a.md](https://r-alhayek.github.io/reading-notes/read04a)
 read 04b| [read04b.md](https://r-alhayek.github.io/reading-notes/read04b)
 read05 | [read05.md](https://r-alhayek.github.io/reading-notes/read05)
+read06 | [read06.md](https://r-alhayek.github.io/reading-notes/read06)
 
 
