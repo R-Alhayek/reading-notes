@@ -1,6 +1,7 @@
 # Evaluating Conditions:
 
 ## Comparison Operations:
+
 #### You can evaluate a situation by comparing one value in the script to what you expect it might be. The result will be a boolean: True or False.
 + **== Is Equal To**: This operator compares two values to see if they are the same. 
    + 'Hello' = 'Hi' returns FALSE because they aren't the same string.
@@ -14,6 +15,7 @@
 + **<= Less Than Or Equal To**: This operator checks if the number on the left is less than or equal to the number on the right.
 
 ![image](https://www.miltonmarketing.com/wp-content/uploads/2018/04/javascriptcomparisonoperatorsimage041.jpg)
+
 
 ## Logical Operators:
 #### Comparison Operators usually return single values of true or false. Logical Operators allow you to compare the results of more than one comparison operator.
@@ -33,3 +35,4 @@
 + **DO WHILE**: It's very similar to the *While loop*, but has one key difference: it will always run the statements inside the curly braces at least once, even if the condition evaluates to false.
 
 ![image](https://beginnersbook.com/wp-content/uploads/2017/09/while_loop_C.jpg)
+
