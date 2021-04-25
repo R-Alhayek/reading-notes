@@ -33,5 +33,11 @@ read07 | [read07.md](https://r-alhayek.github.io/reading-notes/read07)
 <<<<<<< HEAD
 read09 | [read09.md](https://r-alhayek.github.io/reading-notes/read09)
 
-[201read01.md](https://r-alhayek.github.io/reading-notes/201read01)
+# Code 201 Reading Notes
+
+file name  | link
+------------- | -------------
+class01 | [class01.md](https://r-alhayek.github.io/reading-notes/class01)
+
+
 
