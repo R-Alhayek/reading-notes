@@ -30,7 +30,6 @@ read 04b| [read04b.md](https://r-alhayek.github.io/reading-notes/read04b)
 read05 | [read05.md](https://r-alhayek.github.io/reading-notes/read05)
 read06 | [read06.md](https://r-alhayek.github.io/reading-notes/read06)
 read07 | [read07.md](https://r-alhayek.github.io/reading-notes/read07)
-<<<<<<< HEAD
 read09 | [read09.md](https://r-alhayek.github.io/reading-notes/read09)
 
 # Code 201 Reading Notes
@@ -38,6 +37,6 @@ read09 | [read09.md](https://r-alhayek.github.io/reading-notes/read09)
 file name  | link
 ------------- | -------------
 class01 | [class01.md](https://r-alhayek.github.io/reading-notes/class01)
-
+class02 | [class02.md](https://r-alhayek.github.io/reading-notes/class02)
 
 
