@@ -1,4 +1,4 @@
-# Html Text
+# Html Text and CSS
 ##### When creating a web page, you add tags (known as markup) to the contents of the page. These tags provide extra meaning and allow browsers to show users the appropriate structure for the page.
 
 ![image](https://i.insider.com/60197cf301504a00197fb20f)
@@ -56,6 +56,61 @@
 + **Keeps the content separate from how the page looks.**
 + **Means you can change the styles used across all pages
 by altering just one file (rather than each individual page).**
+# Javascript
+### THE LANGUAGE: SYNTAX AND GRAMMAR
++ **STATEMENTS**: A script is a series of instructions that a computer can follow one-by-one. Each individual instruction or step is known as a statement. Statements should end with a semicolon.
+*var today= new Date();*
+   + JAVASCRIPT IS CASE SENSITIVE: age is different than Age.
+   + STATEMENTS ARE INSTRUCTIONS AND EACH ONE STARTS ON A NEW LINE.
+   + STATEMENTS CAN BE ORGANIZED INTO CODE BLOCKS.
++ **COMMENTS**: You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code.
+   + MULTI-LINE COMMENTS: To write a comment that stretches over more than one line, you use a multi-line comment, starting with the /* characters and ending with the * / characters.
+   + SINGLE-LINE COMMENTS: In a single-line comment, anything that follows the two forward slash characters I/ on that line will not be processed by the JavaScript interpreter.
++ **VARIABLES**: A script will have to temporarily store the bits of information it needs to do its job. It can store this data in variables. The data stored in a variable can change (or vary) each time a script runs.
+    + **How to declare variables?**
+    Before you can use avariable, you need to announce that you want to use it. This inclodes creating the variable and giving it a name (declaing the variable). Then you can tell what information you want it to store for you (assign a value to a variable).
+    **var age = 26;** 
+
+### DATA TYPES:
+###### JavaScript distinguishes between numbers, strings, and true or false values known as Booleans.
+![image](https://peinutz.gitbooks.io/javascript/content/assets/import.png)
+
+#### ARRAYS:
+###### An array is a special type of variable. It doesn't just store one value; it stores a list of values. You should consider using an array whenever you are working with a list or a set of values that are related to each other. You create an array and give it a name just like you would any other variable (using the var keyword followed by the name of the array).
+  + **array literal**: The values are assigned to the array inside a pair of square brackets, and each value is separated by a comma. The values in the array do not need to be the same data type, so you can store a string, a number and a Boolean all in the same array.
+  + **array constructor**:You can also write each value on a separate line. This uses the new keyword followed by Array(); The va lues are then specified in parentheses (not square brackets), and each value is separated by a comma.
+
+#### EXPRESSIONS:
+###### An expression evaluates into (results in) a single value. Broadly speaking there are two types of expressions.
++ **EXPRESSIONS THAT JUST ASSIGN A VALUE TO A VARIABLE**:  *var color = 'beige';*
++ **EXPRESSIONS THAT USE TWO OR MORE VALUES TO RETURN A SINGLE VALUE**: *var area = 3 * 2;*
+
+#### OPERATORS:
+###### Expressions rely on things called operators; they allow programmers to create a single value from one or more values. 
++ **ARITHMETIC OPERATORS**: 
+![image](https://www.devopsschool.com/blog/wp-content/uploads/2020/07/JavaScript-Arithmatic-Operators.png)
+
++ **STRING OPERATOR**: There is just one string operator: the + symbol. It is used to join the strings on either side of it.
+
+### DECISIONS AND LOOPS:
+##### Decision Making:
+###### There are often several places in a script where decisions are made that determine which line of the code should run next. Flowcharts can help you plan for these occasions.
+![image](https://s3-eu-west-1.amazonaws.com/arisexpress/info_site/flowchart.png)
+
+##### Evaluating Conditions:
+###### In order to make a decision, your code checks the current status of the script by comparing two values using a comparison operator Which returns a value of true or false.
+
+##### Conditional Statements: 
+###### A conditional statement is based on a concept of if/then/else. If a condition is met, then your code excutes one or more statements, else your code does something different(or just skips the step).
+![image](https://i.ytimg.com/vi/wFB-ywsNPwg/maxresdefault.jpg)
+
+##### Logical Operators:
+###### comparison operators
+
+
+
+
+
 
 
 
