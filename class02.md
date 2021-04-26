@@ -105,8 +105,19 @@ by altering just one file (rather than each individual page).**
 ![image](https://i.ytimg.com/vi/wFB-ywsNPwg/maxresdefault.jpg)
 
 ##### Logical Operators:
-###### comparison operators
+###### comparison operators usually return single values of true or false. Logical operators allow you to compare the results of more than one comparison operator.
+**((5 < 2) && (2 >= 3))**
+![image](https://www.j2eeonline.com/java-certification/module4/images/logical-operator-and-or.jpg)
 
+##### If statements: 
+###### It evaluates a condition. If the condition is true, any statements in the subsequent code block are excuted. 
+
+##### If..Else statement: 
+###### It checks a condition. If it resolves to true, the first code block is excuted. If the condition resolves to false, the seconed code block is run instead.
+
+##### Switch statements:
+###### It starts with a variable called the switch value. Each case indicates a possible value for this variable and the code that should run if the variable matches that value.
+![image](https://i.ytimg.com/vi/9y57j1ePEfo/maxresdefault.jpg)
 
 
 
