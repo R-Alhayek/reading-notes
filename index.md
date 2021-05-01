@@ -21,4 +21,5 @@ class01 | [class01.md](https://r-alhayek.github.io/reading-notes/class01)
 class02 | [class02.md](https://r-alhayek.github.io/reading-notes/class02)
 class03 | [class03.md](https://r-alhayek.github.io/reading-notes/class03)
 class04 | [class04.md](https://r-alhayek.github.io/reading-notes/class04)
+class05 | [class05.md](https://r-alhayek.github.io/reading-notes/class05)
 
