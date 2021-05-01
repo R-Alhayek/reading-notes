@@ -123,22 +123,48 @@ links that have been clicked on.
 ##### which image format to use and when?
 ###### Several statistics reports, including the one from HTTP Archive, indicate that these 3 formats together comprise of more than 95% of all images loaded on websites. However, these 3 image formats have significant differences amongst themselves thus making each of them suitable for specific use cases.
 
-##### 1. TL;DR :
+### 1. TL;DR :
 ###### Use JPEG format for all images that contain a natural scene or photograph where variation in colour and intensity is smooth. Use PNG format for any image that needs transparency or for images with text & objects with sharp contrast edges like logos. Use GIF format for images that contain animations.
 
-##### 2. Compression
+### 2. Compression
 ###### Almost all forms of data that we see on the internet  are compressed to reduce the size of data and ensure faster transmission. Compression can be of two types — lossless and lossy.
 + In **lossless** compression, it is possible to reconstruct the original image from the compressed image because there is no information loss during compression.
 + This is not the case in **lossy** compression i.e. data loss in lossy compression is irreversible. However, this compression ratio comes at a cost of reduced quality that becomes more evident after zooming in on the image. This noticeable reduction in quality or distortion of the image is called compression **artefact**.
 
-### JPEG
+##### JPEG
 ###### JPEG is a lossy compression specification that takes advantage of human perception. Beyond ratios of 1:10, the compression artefacts become more prominent. JPEG images are best suited for photographs and paintings of natural scenes where the variations in colour and intensity are smooth. However, if an image contains text or lines, where a sharp contrast between adjacent pixels is desired to highlight the proper shape, this lossy compression technique does not yield good results.
 
-### PNG
+##### PNG
 ###### PNG is a lossless image format using DEFLATE compression. No data is lost during compression and no compression artefacts are introduced in the image. PNG image would retain higher quality than an image than JPEG and would look a lot sharper, it would also occupy more space on the disk. This makes it unsuitable for storing or transferring high-resolution digital photographs but a great choice for images with text, logos and shapes with sharp edges.
 
-### GIF
+##### GIF
 ###### GIF is also a lossless image format that uses LZW compression algorithm. Given that PNG is now supported across all major devices and that PNG compression is about 5–25% better than GIF compression, GIF images are now mainly used only if the image contains animations.
 
+### 3.Transparency: 
+###### In a simple form, transparency indicates something that is completely invisible. Logos and icons often need to be placed on backgrounds with variable colours.
 
+##### JPEG
+###### JPEG images don’t support transparency and are hence not usable for such cases.
 
+##### PNG
+###### PNG images support transparency in two ways — inserting an alpha channel that allows partial transparency or by declaring a single colour as transparent (index transparency). Partial transparency makes the edges blend smoothly into the background. 
+
+##### GIF
+###### GIF images support transparency by declaring a single colour in the colour palette as transparent (index transparency). GIF is unsuitable for images with transparent backgrounds.
+
+### 4.Colours
+###### There is a significant difference in the number of colours that can be supported by these 3 formats.
+
+##### JPEG 
+###### Images can support around 16 million colours. This is what makes them suitable for storing images of natural scenes.
+
+##### PNG 
+###### Images mainly have two modes — PNG8 and PNG24. PNG8 can support upto 256 colours whereas PNG24 can handle upto 16 million colours like a JPEG image.
+
+##### GIF 
+###### Images are limited to 256 colours. If index transparency is used, then one of these 256 colours is assigned as transparent and the remaining 255 are used for other colours.
+
+### 5.Animation
+###### Animation, in this case, refers to any change or movement in the image. Essentially a part or the entire image changes with time.
+**Of these 3 formats, only GIF supports animation. Of late, with the advent of companies Tumblr, 9Gag, Giphy etc. the use of GIF format for memes has picked up.**
+![image](https://hackernoon.com/images/1*pVdIcMwQ6165aPzUOdQTTQ.gif)
