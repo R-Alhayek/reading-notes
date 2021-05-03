@@ -1,18 +1,3 @@
-# Html: Links
-###### Links are the defining feature of the web because they allow you to move from one web page to another — enabling the very idea of browsing or surfing. Links are created using the (a) element. Users can click on anything between the opening (a) tag and the closing (/a) tag. You specify which page you want to link to using the href attribute.
-**(a href="http://www.imdb.com">IMDB</a)**
-+ **Linking to Other Sites**: Users can click on anything that appears between the opening (a) tag and the closing (/a) tag and will be taken to the page specified in the href attribute. When you link to a different website, the value of the href attribute will be the full web address for the site, which is known as an absolute URL. Browsers show links in blue with an underline by default.
-+ **Linking to Other Pages on the Sa me Site**: When you are linking to other pages within the same site, you do not need to specify the domain name in the URL. You can use a shorthand known as a relative URL.
-   + **Same Folder**:  If all the pages of the site are in the same folder, then the value of the href attribute is just the name of the file. (a href="reviews.html">Reviews</a)
-   + **Child Folder**: For a child folder, use the name of the child folder, followed by a forward slash, then the file name. (a href="music/listings.html">Listings</a)
-   + **Parent Folder**: Use ../ to indicate the folder above the current one, then follow it with the file name. (a href="../index.html">Home</a).
-
-+ **Email Links**: mailto: email-links.html HTML To create a link that starts up the user's email program and addresses an email to a specified email address, you use the (a)element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.
-+ **Opening Links in a New Window**: target: If you want a link to open in a new window, you can use the target attribute on the opening (a) tag. The value of this attribute should be _blank.
-+ **Linking to a Specific Part of the Same Page**: Before you can link to a specific part of a page, you need to identify the points in the page that the link will go to. You do this using the id attribute (which can be used on every HTML element).
-+ **Linking to a Specific Part of Another Page**: As long as the page you are linking to has id attributes that identify specific parts of the page, you can simply add the same syntax to the end of the link for that page. Therefore, the href attribute will contain the address for the page (either an absolute URL or a relative URL), followed by the # symbol, followed by the value of the id attribute that is used on the element you are linking to.
-![image](https://weblog.west-wind.com/images/2019/Non-Navigating-Links-for-JavaScript-Handling/EmptyHref.png)
-
 # CSS:Layout
 ###### we are going to look at how to control where each element sits on a page and how to create attractive page layouts. 
 #### Key Concepts in Positioning Elements:
@@ -62,7 +47,5 @@ is 60 pixels wide. Each column has a margin set to 10 pixels, which creates a ga
 ##### There are two ways to add multiple style sheets to a page:
    + 1: Your HTML page can link to one style sheet and that stylesheet can use the @import rule to import other style sheets.
    + 2: In the HTML you can use a separate <link> element for each style sheet.
-
-
 
 
