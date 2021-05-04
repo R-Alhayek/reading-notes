@@ -77,5 +77,6 @@ The events, methods, and properties of an object all relate to each other: Event
 #### C: How do I write a script for a web page?
 JavaScript is written in plain text, just like HTML and CSS, so you do not need any new tools to write a script. When you want to use JavaScript with a web page, you use the HTML <script> element to tell the browser it is coming across a script. Its src attribute tells people where the JavaScript file is stored.
 + **PLACING THE SCRIPT IN THE PAGE**: You may see JavaScript in the HTML between opening <script> and closing </script> tags (but it is better to put scripts in their own files).
-+ **JAVASCRIPT RUNS WHERE IT IS FOUND IN THE HTML**: When the browser comes across a <script> element, it stops to load the script and then checks to see if it needs to do anything.
++ **JAVASCRIPT RUNS WHERE IT IS FOUND IN THE HTML**: When the browser comes across a (script) element, it stops to load the script and then checks to see if it needs to do anything. The HTML (script) element is used to load the JavaScript file into the page. It has an attribute called src, whose value is the path to the script you created.
+You may see JavaScript in the HTML between opening (script) and closing (/script) tags (but it is better to put scripts in their own files).
 ![image](https://miro.medium.com/max/2764/1*TeJb3sBvoF6tasJwDIbX8A.png)

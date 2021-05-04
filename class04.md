@@ -63,6 +63,58 @@ is 60 pixels wide. Each column has a margin set to 10 pixels, which creates a ga
    + 1: Your HTML page can link to one style sheet and that stylesheet can use the @import rule to import other style sheets.
    + 2: In the HTML you can use a separate <link> element for each style sheet.
 
+# JS: FUNCTIONS
+###### Functions let you group a series of statements together to perform a specific task. If different parts of a script repeat the same task, you can reuse the function (rather than repeating the same set of st atements). 
 
+#### Declaring A Function:
++ You declare a function by using the **function** keyword.
++ Give the function a name followed by parentheses().
++ Set the statement that perform the task in a code block inside curly braces{}.
 
+#### Calling A Function:
+To run the code in the function, you use the function name followed by a parentheses (calling a function). You can call the function as many times as you want.
+
+#### Declaring Functions That Need Information:
+If the function needs information to work, you indicate what it needs in parentheses after the function name which are called **(Parameters)**. Inside the function those words act like variables.
+
+#### Calling Functions That Need Information:
+When you call a function that has parameters, you specify the values it should use in the parentheses that follow the name. The values are called **arguments**.
+
+#### Getting A Single Value Out Of The Function:
+Some functions return information to the code that called them. The **return** keyword is used to return a value to the code that called the function.
+
+#### Getting A Multiple Values Out Of The Function:
+Functions can return multiple values using an array.This array is then returned to the code that called the function, allowing the values to be used.
+
+### ANONYMOUS FUNCTIONS & FUNCTION EXPRESSIONS
++ **FUNCTION DECLARATION**: A function declaration creates a function that you can ca ll later in your code. In order to call the function later in your code, you must give it a name, so these are known as *named functions*.
++ **FUNCTION EXPRESSION**: In function expressions, the name is usually omitted. A function with no name is called an *anonymous function*. In a function expression, the function is not processed until the interpreter gets to that statement.
+
+#### IMMEDIATELY INVOKED FUNCTION EXPRESSIONS (llFE):
+###### Pronounced "iffy," these functions are not given a name. Instead, they are executed once as the interpreter comes across them. 
+
+#### VARIABLE SCOPE
+###### The location where you declare a variable will affect where it can be used within your code. If you declare it within a function, it can only be used within that function. This is known as the variable's scope.
++ **LOCAL VARIABLES**: When a variable is created inside a function using the var keyword, it can only be used in that function. It is called a local variable or function-level variable. It is said to have **local scope or function-level scope**. It cannot be accessed outside of the function in which it was declared.
++ **GLOBAL VARIABLES**: If you create a variable outside of a function, then it can be used anywhere within the script. It is called a **global variable and has global scope**. Global variables are stored in memory for as long as the web page is loaded into the web browser.
+
+#### HOW MEMORY & VARIABLES WORK
+###### Global variables use more memory. The browser has to remember them for as long as the web page using them is loaded. Local variables are only remembered during the period of time that a function is being executed.
+![image](https://cdn-images-1.medium.com/max/1600/1*g4d_EtHCCjTkTw2VRaWFUA.png)
+
+# Pair Programming
+###### pair programming is the practice of two developers sharing a single workstation to interactively tackle a coding task together.
+
+#### How does pair programming work?
+###### pair programming commonly involves two roles: the Driver and the Navigator. The Driver is the programmer who is typing and the only one whose hands are on the keyboard. Handling the “mechanics” of coding, the Driver manages the text editor, switching files, version control, and—of course writing—code. The Navigator uses their words to guide the Driver but does not provide any direct input to the computer.
+
+#### Why pair program?
+###### Pair programming touches on all four skills: developers explain out loud what the code should do, listen to others’ guidance, read code that others have written, and write code themselves.
++ **1. Greater efficiency**: when two people focus on the same code base, it is easier to catch mistakes in the making. pair programing takes slightly longer, but produces higher-quality code that doesn’t require later effort in troubleshooting and debugging. 
++ **2. Engaged collaboration**: When two programmers focus on the same code, the experience is more engaging and both programmers are more focused than if they were working alone. Another important aspect of learning to program is knowing when to ask for help. When developers pair program, they rely more on each other and can often find a solution together without needing to ask for additional help. Ultimately, this boosts overall confidence.
++ **3. Learning from fellow students**: working with a teammate can expose developers to techniques they otherwise would not have thought of. If one developer has a unique approach to a specific problem, pair programming exposes the other developer to a new solution.
++ **4. Social skills**: air programming is great for improving social skills. When working with someone who has a different coding style, communication is key. Pair programming not only improves programming skills, but can also help programmers develop their interpersonal skills.
++ **5. Job interview readiness**: A common step in many interview processes involves pair programming between a current employee and an applicant, either in person or through a shared screen. For most roles, the ability to work with and learn from others and stellar communication skills are as (or more!) important to a company than specific technical skills. Pair programming strengthens all of those skills.
++ **6. Work environment readiness**: Many companies that utilize pair programing expect to train fresh hires from CS-degree programs on how they operate to actually deliver a product. Code Fellows graduates who are already familiar with how pairing works can hit the ground running at a new job, with one less hurdle to overcome.
+![image](https://ulansoftware.com/static/uploads/users/3125/images/Ulan2/Blog/post_01.jpg)
 
