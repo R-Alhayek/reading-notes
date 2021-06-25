@@ -37,6 +37,7 @@ class14b | [class14b.md](https://r-alhayek.github.io/reading-notes/class14b)
 
 file name  | link
 ------------- | -------------
+class01 | [301class1.md](https://r-alhayek.github.io/reading-notes/301class1.md)
 
 
 
