@@ -38,7 +38,8 @@ class14b | [class14b.md](https://r-alhayek.github.io/reading-notes/class14b)
 file name  | link
 ------------- | -------------
 class01 | [301class1.md](https://r-alhayek.github.io/reading-notes/301class1.md)
-class01 | [301class2.md](https://r-alhayek.github.io/reading-notes/301class2.md)
+class02 | [301class2.md](https://r-alhayek.github.io/reading-notes/301class2.md)
+class03 | [301class3.md](https://r-alhayek.github.io/reading-notes/301class3.md)
 
 
 
