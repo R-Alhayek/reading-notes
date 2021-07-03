@@ -36,3 +36,16 @@ The spread operator **(...)** is a useful and quick syntax for adding items to a
 5. **Give an example of using the spread operator to combine two objects into one.**
 
 ![image](images/spread2.png)
+
+# How to Pass Functions Between Components
+1. **In the video, what is the first step that the developer does to pass functions between components?**
+creating the function wherever we want the state to  change.
+.
+2. **In your own words, what does the increment function do?**
+Used to loop through an array and find the matching name to update it.
+.
+3. **How can you pass a method from a parent component into a child component?**
+We pass a method from a parent component into a child component by using **props**.
+.
+4. **How does the child component invoke a method that was passed to it from a parent component?**
+By using **state**, when clicked on the button, it will invoke that method.
