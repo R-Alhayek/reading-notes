@@ -51,7 +51,7 @@ class06 | [301class6.md](https://r-alhayek.github.io/reading-notes/301class6.md)
 class07 | [301class7.md](https://r-alhayek.github.io/reading-notes/301class7.md)
 class08 | [301class8.md](https://r-alhayek.github.io/reading-notes/301class8.md)
 class09 | [301class9.md](https://r-alhayek.github.io/reading-notes/301class9.md)
-
+class10 | [301class10.md](https://r-alhayek.github.io/reading-notes/301class10.md)
 
 
 
